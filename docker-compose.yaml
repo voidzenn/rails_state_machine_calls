@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_USER: user
-      MYQL_PASSWORD: password
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: dev_db
 
   test-db:
@@ -17,5 +17,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_USER: user
-      MYQL_PASSWORD: password
+      MYSQL_PASSWORD: password
       MYSQL_DATABASE: test_db
