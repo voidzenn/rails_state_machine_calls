@@ -1,0 +1,26 @@
+<div style="margin-top: 20px; font-size: 20px">
+  <span style="margin-right: 30px">CALL STATUS</span>
+  <span style="<%= status == "init" ? "font-weight:bold; color: blue" : "" %>">
+    Init
+  </span>
+  <span>=></span>
+  <span style="<%= status == "calling" ? "font-weight:bold; color: blue" : "" %>">
+    Calling
+  </span>
+  <span>=></span>
+  <span style="<%= status == "waiting" ? "font-weight:bold; color: blue" : "" %>">
+    Waiting
+  </span>
+  <span>=></span>
+  <span style="<%= status == "answered" ? "font-weight:bold; color: blue" : "" %>">
+    Answered
+  </span>
+  <span>=></span>
+  <span style="<%= status == "connected" ? "font-weight:bold; color: blue" : "" %>">
+    Connected
+  </span>
+  <span>=></span>
+  <span style="<%= status == "call_cancelled" ? "font-weight:bold; color: blue" : "" %>">
+    Cancelled
+  </span>
+</div>
