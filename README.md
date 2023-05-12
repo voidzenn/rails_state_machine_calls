@@ -13,5 +13,8 @@
  - In the root page, you can see the different status, also the three buttons **Next Status**, **Cancel Call** and **Initialize Call**
  - In Call Status area, **Init** is the default state
  - If you click **Next Status**, you can proceed to next status which changes **Init** to **Calling**, then **Calling** to **Waiting** and so on
+   - **Next Status** will be hidden if in **Cancelled** state
  - If you click **Cancel Call**, the call status will be **Cancelled_call** because the call has completed or rejected
- - If you click **Initialize Call**, the call status will be **Init** which goes back to the first state
+   - **Cancel Call** button will be hidden if in **Init** state or **Cancelled** state
+   - **Cancel Call** button will be shown if other state
+ - If you click **Initialize Call**, the call status will be **Init** state which goes back to the first state
