@@ -18,3 +18,6 @@
    - **Cancel Call** button will be hidden if in **Init** state or **Cancelled** state
    - **Cancel Call** button will be shown if other state
  - If you click **Initialize Call**, the call status will be **Init** state which goes back to the first state
+
+### App Image
+![image](https://github.com/voidzenn/rails_state_machine_calls/assets/47482620/af95f834-deed-4783-8d38-77483b7f7666)
