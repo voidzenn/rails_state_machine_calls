@@ -6,9 +6,13 @@
   </div>
   <%= render partial: "/contents/state_view", locals: { status: @status} %>
   <div style="margin-top: 20px">
-    <span><%= button_to "Next Status", '/change_status' , method: :put %></span>
     <span>
-      <% if @status != "init" %>
+      <% if @status != "call_cancelled" %>
+        <%= button_to "Next Status", '/change_status' , method: :put %>
+      <% end %>
+    </span>
+    <span>
+      <% if @status != "init" and @status != "call_cancelled" %>
         <%= button_to "Cancel Call", '/cancel_call' , method: :put, style: "background-color: red; color: white" %>
       <% end %>
     </span>
