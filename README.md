@@ -5,7 +5,7 @@
  - Change the name of /config/application.yml.example to **application.yml**
  - You need to install docker, after installing docker, run mysql docker containers using this command **docker compose up -d**
  - Run migration **rails db:migrate**
- - Run migration **rake create_calls_data**
+ - Create fake data **rake create_calls_data**
  - Run application **rails s**
  - Access localhost **http://127.0.0.1:3000/** or the generated url and port after running **rails s**
 
